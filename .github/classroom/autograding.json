@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "01",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "George\r\n2000\r\n1000\r\ny\r\nEdward\r\n2200\r\n1100\r\ny\r\nWilfrid\r\n2400\r\n2000\r\ny\r\nYoga\r\n2700\r\n1500\r\ny\r\nLouis\r\n2300\r\n2100\r\ny\r\nRyan\r\n1900\r\n1000\r\ny\r\nHans\r\n2700\r\n1100\r\nn\r\n2\r\n1100\r\nJosh\r\n2200\r\n2000",
+      "output": "Hans|2700|1100 Yoga|2700|1500 Wilfrid|2400|2000 Louis|2300|2100 Edward|2200|1100 George|2000|1000 Ryan|1900|1000\r\nMasukkan jumlah data yang ingin dihapus :\r\n\r\nWilfrid|2400|2000 Louis|2300|2100 Edward|2200|1100 George|2000|1000 Ryan|1900|1000\r\nMasukkan minimum kalori yang diterima tubuh :\r\n\r\nJumlah user dengan kalori saat ini dibawah 1100 ada sebanyak\r\nMasukkan nama :\r\nMasukkan kalori maks :\r\nMasukkan kalori yang diterima :\r\n\r\nWilfrid|2400|2000 Louis|2300|2100 Edward|2200|1100 George|2000|1000 Ryan|1900|1000 Josh|2200|2000",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "02",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "Josh\r\n-10000\r\n3000\r\ny\r\nRegina\r\n2200\r\n2000\r\ny\r\nElla\r\n2400\r\n1000\r\ny\r\nTito\r\n2300\r\n2200\r\ny\r\nFadhil\r\n2000\r\n1900\r\nn\r\n0\r\n2000\r\nHafizh\r\n2300\r\n2000",
+      "output": "Ella|2400|1000 Tito|2300|2200 Regina|2200|2000 Fadhil|2000|1900\r\nMasukkan jumlah data yang ingin dihapus :\r\n\r\nElla|2400|1000 Tito|2300|2200 Regina|2200|2000 Fadhil|2000|1900\r\nMasukkan minimum kalori yang diterima tubuh :\r\n\r\nJumlah user dengan kalori saat ini dibawah 2000 ada sebanyak 3\r\nMasukkan nama :\r\nMasukkan kalori maks :\r\nMasukkan kalori yang diterima :\r\n\r\nElla|2400|1000 Tito|2300|2200 Regina|2200|2000 Fadhil|2000|1900 Hafizh|2300|2000",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "03",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "Josh\r\n2200\r\n2100\r\ny\r\nTamam\r\n2300\r\n2200\r\ny\r\nIrvan\r\n2500\r\n2501\r\ny\r\nGian\r\n2700\r\n2000\r\nn\r\n1\r\n2250\r\nKevin\r\n-2300\r\n-1000",
+      "output": "Gian|2700|2000 Irvan|2500|2501 Tamam|2300|2200 Josh|2200|2100\r\nMasukkan jumlah data yang ingin dihapus :\r\n\r\nIrvan|2500|2501 Tamam|2300|2200 Josh|2200|2100\r\nMasukkan minimum kalori yang diterima tubuh :\r\n\r\nJumlah user dengan kalori saat ini dibawah 2250 ada sebanyak 2\r\nMasukkan nama :\r\nMasukkan kalori maks :\r\nMasukkan kalori yang diterima :\r\n\r\nIrvan|2500|2501 Tamam|2300|2200 Josh|2200|2100",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "04",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "josh\r\n2200\r\n1000\r\ny\r\nadi\r\n2400\r\n2000\r\nn\r\n0\r\n500\r\nchandra\r\n2000\r\n500",
+      "output": "adi|2400|2000 josh|2200|1000\r\nMasukkan jumlah data yang ingin dihapus :\r\n\r\nadi|2400|2000 josh|2200|1000\r\nMasukkan minimum kalori yang diterima tubuh :\r\n\r\nJumlah user dengan kalori saat ini dibawah 500 ada sebanyak 0\r\nMasukkan nama :\r\nMasukkan kalori maks :\r\nMasukkan kalori yang diterima :\r\n\r\nadi|2400|2000 josh|2200|1000 chandra|2000|500",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "05",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "josh\r\n2200\r\n1000\r\nn\r\n0\r\n1000\r\nadi\r\n2400\r\n2000",
+      "output": "josh|2200|1000\r\nMasukkan jumlah data yang ingin dihapus :\r\n\r\njosh|2200|1000\r\nMasukkan minimum kalori yang diterima tubuh :\r\n\r\nJumlah user dengan kalori saat ini dibawah 1000 ada sebanyak 1\r\nMasukkan nama :\r\nMasukkan kalori maks :\r\nMasukkan kalori yang diterima :\r\n\r\njosh|2200|1000 adi|2400|2000",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "06",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "j\r\n-1000\r\n-1000\r\ny\r\no\r\n2000\r\n-1000\r\ny\r\ns\r\n2200\r\n2020\r\nn\r\n0\r\n2000\r\nh\r\n2300\r\n-2000",
+      "output": "s|2200|2020\r\nMasukkan jumlah data yang ingin dihapus :\r\n\r\ns|2200|2020\r\nMasukkan minimum kalori yang diterima tubuh :\r\n\r\nJumlah user dengan kalori saat ini dibawah 2000 ada sebanyak 0\r\nMasukkan nama :\r\nMasukkan kalori maks :\r\nMasukkan kalori yang diterima :\r\n\r\ns|2200|2020",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "07",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "jolix\r\n2300\r\n2000\r\ny\r\nFrans\r\n2400\r\n2300\r\nn\r\n1\r\n2000\r\nJason\r\n2700\r\n2300",
+      "output": "Frans|2400|2300 jolix|2300|2000\r\nMasukkan jumlah data yang ingin dihapus :\r\n\r\njolix|2300|2000\r\nMasukkan minimum kalori yang diterima tubuh :\r\n\r\nJumlah user dengan kalori saat ini dibawah 2000 ada sebanyak 1\r\nMasukkan nama :\r\nMasukkan kalori maks :\r\nMasukkan kalori yang diterima :\r\n\r\njolix|2300|2000 Jason|2700|2300",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "08",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "Arief\r\n2000\r\n1900\r\ny\r\nRozin\r\n2200\r\n2000\r\ny\r\nDavid\r\n2250\r\n2200\r\nn\r\n1\r\n1800\r\nAto\r\n2200\r\n1900",
+      "output": "David|2250|2200 Rozin|2200|2000 Arief|2000|1900\r\nMasukkan jumlah data yang ingin dihapus :\r\n\r\nRozin|2200|2000 Arief|2000|1900\r\nMasukkan minimum kalori yang diterima tubuh :\r\n\r\nJumlah user dengan kalori saat ini dibawah 1800 ada sebanyak 0\r\nMasukkan nama :\r\nMasukkan kalori maks :\r\nMasukkan kalori yang diterima :\r\n\r\nRozin|2200|2000 Arief|2000|1900 Ato|2200|1900",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "09",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "anfis\r\n2300\r\n2000\r\ny\r\nivandy\r\n2200\r\n2000\r\ny\r\namin\r\n2200\r\n1900\r\ny\r\nharun\r\n2400\r\n2000\r\nn\r\n1\r\n2000\r\nghani\r\n2300\r\n2000",
+      "output": "harun|2400|2000 anfis|2300|2000 amin|2200|1900 ivandy|2200|2000\r\nMasukkan jumlah data yang ingin dihapus :\r\n\r\nanfis|2300|2000 amin|2200|1900 ivandy|2200|2000\r\nMasukkan minimum kalori yang diterima tubuh :\r\n\r\nJumlah user dengan kalori saat ini dibawah 2000 ada sebanyak 3\r\nMasukkan nama :\r\nMasukkan kalori maks :\r\nMasukkan kalori yang diterima :\r\n\r\nanfis|2300|2000 amin|2200|1900 ivandy|2200|2000 ghani|2300|2000",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "NAMA\r\n3000\r\n2700\r\ny\r\nSAYA\r\n-2000\r\n3000\r\nn\r\n0\r\n2000\r\nADALAH\r\n2700\r\n3000",
+      "output": "NAMA|3000|2700\r\nMasukkan jumlah data yang ingin dihapus :\r\n\r\nNAMA|3000|2700\r\nMasukkan minimum kalori yang diterima tubuh :\r\n\r\nJumlah user dengan kalori saat ini dibawah 2000 ada sebanyak 0\r\nMasukkan nama :\r\nMasukkan kalori maks :\r\nMasukkan kalori yang diterima :\r\n\r\nNAMA|3000|2700 ADALAH|2700|3000",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
