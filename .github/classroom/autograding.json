@@ -25,7 +25,7 @@
       "setup": "",
       "run": "./soal-01",
       "input": "Josh\r\n2200\r\n2100\r\ny\r\nTamam\r\n2300\r\n2200\r\ny\r\nIrvan\r\n2500\r\n2501\r\ny\r\nGian\r\n2700\r\n2000\r\nn\r\n1\r\n2250\r\nKevin\r\n-2300\r\n-1000",
-      "output": "Gian|2700|2000 Irvan|2500|2501 Tamam|2300|2200 Josh|2200|2100\r\nMasukkan jumlah data yang ingin dihapus :\r\n\r\nIrvan|2500|2501 Tamam|2300|2200 Josh|2200|2100\r\nMasukkan minimum kalori yang diterima tubuh :\r\n\r\nJumlah user dengan kalori saat ini dibawah 2250 ada sebanyak 2\r\nMasukkan nama :\r\nMasukkan kalori maks :\r\nMasukkan kalori yang diterima :\r\n\r\nIrvan|2500|2501 Tamam|2300|2200 Josh|2200|2100",
+      "output": "Gian|2700|2000 Irvan|2500|2501 Tamam|2300|2200 Josh|2200|2100\r\nMasukkan jumlah data yang ingin dihapus : \r\nIrvan|2500|2501 Tamam|2300|2200 Josh|2200|2100\r\nMasukkan minimum kalori yang diterima tubuh : \r\nJumlah user dengan kalori saat ini dibawah 2250 ada sebanyak 2\r\nMasukkan nama : Masukkan kalori maks : Masukkan kalori yang diterima : \r\nIrvan|2500|2501 Tamam|2300|2200 Josh|2200|2100",
       "comparison": "included",
       "timeout": 1,
       "points": 10
