@@ -55,8 +55,12 @@ void printList(node *nodes){
     printf("\n");
     while (temp!=NULL)
     {
-        printf("%s|%d|%d ", temp->nama, temp->calMaks, temp->calNow);
-        temp = temp->next;
+	if (temp->next != NULL)
+            printf("%s|%d|%d ", temp->nama, temp->calMaks, temp->calNow);
+        else
+	    printf("%s|%d|%d", temp->nama, temp->calMaks, temp->calNow);
+	
+	temp = temp->next;
     }
 }
 
