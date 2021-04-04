@@ -72,7 +72,7 @@ void popP(node** nodes){
 
 int search(node *nodes, int cariNow){
     node *temp = nodes;
-    int count;
+    int count = 0;
     while(temp!=NULL){
         if (temp->calNow <= cariNow){
             count++;
